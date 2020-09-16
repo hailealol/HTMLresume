@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#bodyWrapper{
+    padding-left: 16%;
+    padding-right: 16%;
+    background-color: black;
+    height: 100%;
+}
+#leftColumn{
+    float: left;
+    height: 100%;
+    background-color:rgb(39, 39, 39);
+    min-width: 20%;
+    max-width: 200px;
+    padding: 10px;
+    color: white;
+    padding-left: 0px;
+    padding-right: 15px;
+}
+
+#leftColumn hr{
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+#rightColumn hr{
+    width: 7%;
+    margin-bottom: 5px;
+}
+
+aside{
+    margin-top: 25px;
+}
+
+#mainBody{
+    min-width:10% ;
+    /* float: left; */
+    height: 1000px;
+    background-color:white;
+    
+}
+ #profilePic{
+    padding: 10px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+ }
+
+
+
+#rightHeader{
+    min-height: 150px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    background-color: rgb(204, 204, 204);
+}
+#headerStyle{
+    height: 20px;
+}
+
+.icon{
+    fill: white;
+    height: 30px;
+    padding: 5px;
+}
+
+hr.new4 {
+    border: 1px solid black
+}
+
+
+/* Top Bar */
+#colorOne{
+    background-color: rgb(0, 0, 0);
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+#colorTwo{
+    background-color:rgb(0, 0, 0);
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+#colorThree{
+    background-color: rgb(0, 0, 0);
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+#colorFour{
+    background-color:rgb(0, 0, 0);
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(38, 132, 255);
+}
